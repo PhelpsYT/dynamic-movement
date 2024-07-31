@@ -5,7 +5,7 @@
 	"name": "Dynamic Movement",
 	"description": "This is an example description! Tell everyone what your mod is about!",
 	"authors": [
-		"Me!"
+		"Phelps"
 	],
 	"contact": {
 		"homepage": "https://fabricmc.net/",
@@ -16,22 +16,13 @@
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			{
-				"value": "github.phelpsyt.dynamicmovement.DynamicMovement",
-				"adapter": "kotlin"
-			}
+			"github.phelpsyt.dynamicmovement.DynamicMovement"
 		],
 		"client": [
-			{
-				"value": "github.phelpsyt.dynamicmovement.DynamicMovementClient",
-				"adapter": "kotlin"
-			}
+			"github.phelpsyt.dynamicmovement.DynamicMovementClient"
 		],
 		"fabric-datagen": [
-			{
-				"value": "github.phelpsyt.dynamicmovement.DynamicMovementDataGenerator",
-				"adapter": "kotlin"
-			}
+			"github.phelpsyt.dynamicmovement.DynamicMovementDataGenerator"
 		]
 	},
 	"mixins": [
@@ -45,8 +36,7 @@
 		"fabricloader": ">=0.15.11",
 		"minecraft": "~1.21",
 		"java": ">=21",
-		"fabric-api": "*",
-		"fabric-language-kotlin": "*"
+		"fabric-api": "*"
 	},
 	"suggests": {
 		"another-mod": "*"
